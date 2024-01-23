@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>telran.probes.api</groupId>
   <artifactId>probes-api</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>probes-api</name>
   <description>Common API module</description>
     <properties>
