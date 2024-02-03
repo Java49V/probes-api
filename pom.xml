@@ -6,7 +6,7 @@
   <name>probes-api</name>
   <description>Common API module</description>
     <properties>
-	  <maven.comiler.source>17</maven.comiler.source>
-	  <maven.comiler.target>17</maven.comiler.target>
+	  <maven.compiler.source>17</maven.compiler.source>
+	  <maven.compiler.target>17</maven.compiler.target>
   </properties>
 </project>
