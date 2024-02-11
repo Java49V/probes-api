@@ -1,5 +1,8 @@
 package telran.probes.dto;
 
-public record SensorRange(float minValue, float maxValue) {
+import jakarta.validation.constraints.NotNull;
+import static telran.probes.dto.ErrorMessages.*;
+public record SensorRange(@NotNull(message=MISSING_MIN_VALUE) Float minValue,
+		@NotNull(message=MISSING_MAX_VALUE) Float maxValue) {
 
 }
